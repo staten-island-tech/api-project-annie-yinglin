@@ -1,0 +1,12 @@
+body{
+  background-color: ;
+  font-family: Copperplate, Papyrus, fantasy;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#header{
+  font-size: 7rem;
+}
