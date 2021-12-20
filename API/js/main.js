@@ -1,16 +1,6 @@
 import "../css/style.css";
 
-document.getElementById("header").innerHTML = "Dashing Dogs"
-
-/* const URL = "https://dog.ceo/api/breeds/image/random";
-
-async function getData(URL) {
-  try {
-    const response = await fetch(URL);
-    const data = await response.json();
-    document.getElementById("header").innerHTML = data.message;
-  } catch (error) {
-    console.log(error);
-  }
-}
-getData(URL); */
+document.querySelector('#app').innerHTML = `
+  <h1>Hello Vite!</h1>
+  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
+`

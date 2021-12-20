@@ -1,12 +1,14 @@
-body{
-  background-color: ;
-  font-family: Copperplate, Papyrus, fantasy;
+@import url(variables.css);
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 3rem;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 
-#header{
-  font-size: 7rem;
+body{
+  background-color: var(--lightsage);
 }
