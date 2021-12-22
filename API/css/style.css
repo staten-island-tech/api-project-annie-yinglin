@@ -1,11 +1,20 @@
 @import url(variables.css);
 
-body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+body{
+  font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
   background-color: var(--lightsage);
+  color: var(--soil);
+}
+
+#header{
+  margin-top: -3.5rem;
+  border: double 0.5rem;
+  font-size: var(--h1);
+  background-color: var(--cream);
+  padding: 0rem;
 }
