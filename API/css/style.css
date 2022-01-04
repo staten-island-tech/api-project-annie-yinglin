@@ -18,3 +18,7 @@ body{
   background-color: var(--cream);
   padding: 0rem;
 }
+
+#gallery{
+  font-size: var(--h2);
+}
