@@ -10,7 +10,11 @@ async function getData(URL) {
     try {
         const response = await fetch(URL);
         const data = await response.json();
-        document.getElementById("gallery").innerHTML = data.message;
+        document.getElementById("gallery").insertAdjacentHTML("afterbegin",
+            `<div class = "display-card">
+    <img class ="display-img" src="${data.message}"/>
+    </div>`
+        )
     } catch (error) {
         console.log(error);
     }
