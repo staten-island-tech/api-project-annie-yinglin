@@ -18,6 +18,11 @@ body{
   background-color: var(--cream);
 }
 
+#search{
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
 #gallery{
   font-size: var(--h2);
 }
