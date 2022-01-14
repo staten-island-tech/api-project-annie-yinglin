@@ -37,10 +37,3 @@ const letsgowoofers = async () => {
     }
 };
 letsgowoofers();
-
-function clear(search) {
-    document.getElementById("clear").addEventListener("click", function (event) {
-        search.value = "";
-    })
-};
-clear(search);
